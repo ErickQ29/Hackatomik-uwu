@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HACKATOMIK</title>
+  <style>
+    /* Estilos para el fondo y diseño general */
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, magenta, #0a192f, black);
+      font-family: 'Arial', sans-serif;
+      color: white;
+    }
+
+    /* Estilos para el contenido principal */
+    main {
+      margin: auto;
+      padding: 2rem;
+      width: 80%;
+      max-width: 800px;
+      color: white;
+      font-size: 1.5rem;
+      line-height: 1.8;
+      text-align: center;
+    }
+
+    /* Estilos para el título principal con gradiente */
+    h1 {
+      font-size: 3rem;
+      font-weight: 600;
+      line-height: 1.2;
+      margin-bottom: 1em;
+      color: #00ff00;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Estilos para los párrafos */
+    p {
+      margin-bottom: 1em;
+    }
+
+    /* Estilos para el texto con gradiente */
+    .text-gradient {
+      background-image: linear-gradient(to right, #00ff00, #00cc00);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-size: 200%;
+      background-position: 100%;
+    }
+
+    /* Estilos para las instrucciones y código */
+    .instructions {
+      margin-bottom: 2rem;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      background: rgba(0, 0, 0, 0.5);
+      padding: 1.5rem;
+      border-radius: 8px;
+    }
+
+    .instructions code {
+      font-size: 1em;
+      font-weight: normal;
+      background: rgba(255, 255, 255, 0.1);
+      color: #fff;
+      border-radius: 4px;
+      padding: 0.2em 0.3em;
+    }
+
+    .instructions strong {
+      color: #fff;
+    }
+
+    /* Estilos para la cuadrícula de categorías */
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      justify-items: center;
+      margin-top: 2rem;
+    }
+
+    /* Estilos para las tarjetas de categorías con efecto de hover */
+    .category-card {
+      width: 100%;
+      max-width: 20em;
+      padding: 1rem;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 8px;
+      text-align: center;
+      transition: background-color 0.3s ease;
+    }
+
+    .category-card:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <!-- Título principal con efecto de gradiente -->
+    <h1 class="text-gradient">HACKATOMIK</h1>
+
+    <!-- Mensaje de bienvenida e instrucciones -->
+    <p class="instructions">
+      ¡Bienvenido al increíble mundo de HACKATOMIK! Explora los secretos de este asombroso lugar.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu felis euismod, ultricies elit vel,
+      fringilla elit. Vivamus vel tristique urna, vel euismod elit. Quisque eu est ac ex efficitur
+      interdum. Sed nec sapien neque. Nulla facilisi. Nulla facilisi. Curabitur nec justo vel libero
+      eleifend fermentum.
+    </p>
+
+    <!-- Cuadrícula de categorías con enlaces -->
+    <div class="category-grid">
+      <a href="ing-sig.html" class="category-card">
+        <h2>Ing en SIG</h2>
+      </a>
+      <a href="lic-ciberseg.html" class="category-card">
+        <h2>Lic en Ciberseg</h2>
+      </a>
+      <a href="lic-ds.html" class="category-card">
+        <h2>Lic en DS</h2>
+      </a>
+      <a href="ing-ds.html" class="category-card">
+        <h2>Ing en DS</h2>
+      </a>
+    </div>
+
+    <!-- Agrega más enlaces para páginas adicionales según sea necesario -->
+  </main>
+</body>
+
+</html>

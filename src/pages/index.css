@@ -1,0 +1,27 @@
+/* index.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Tus estilos personalizados aquí */
+body {
+  background-color: black; /* Fondo negro */
+  color: white; /* Texto blanco */
+}
+
+h1 {
+  color: white; /* Color del texto de Green Galaxy */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #555 !important; /* Agregamos !important para priorizar este estilo */
+}
